@@ -1,0 +1,132 @@
+// -------------------------
+// TYPE
+// -------------------------
+
+// Typography variables
+// --------------------------------------------------
+
+$primary-XLt: 'GothamXLt';
+$primary-Lt: 'GothamLt';
+$primary-Bk: 'AgencyR';
+$primary-Md: 'AgencyB';
+$primary-Bd: 'AgencyB';
+$primary-Bl: 'GothamBl';
+$primary-Th: 'GothamTh';
+$primary-Ul: 'GothamUl';
+
+@font-face {
+  font-family: 'MyWebFont';
+  src: url('webfont.eot'); /* IE9 Compat Modes */  /* IE9 Compat Modes */
+  src: url('webfont.eot?#iefix') format('embedded-opentype'),  /* IE6-IE8 */
+       url('webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('webfont.woff') format('woff'),  /* Pretty Modern Browsers */
+       url('webfont.ttf')  format('truetype'),  /* Safari, Android, iOS */
+       url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+// Gotham
+// -------------------------
+
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: 'AgencyB';
+  src: url('../fonts/AGENCYB.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/AGENCYB.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/AGENCYB.woff2') format('woff2'),
+    url('../fonts/AGENCYB.woff') format('woff'),
+    url('../fonts/AGENCYB.ttf') format('truetype'),
+    url('../fonts/AGENCYB.svg') format('svg'); /* Legacy iOS */  font-weight: normal;
+  font-style: normal;
+}
+
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: 'AgencyR';
+  src: url('../fonts/agencyr.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/agencyr.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/agencyr.woff2') format('woff2'),
+    url('../fonts/agencyr.woff') format('woff'), 
+    url('../fonts/agencyr.ttf') format('truetype'),
+    url('../fonts/agencyr.svg') format('svg'); /* Legacy iOS */  font-weight: normal;
+  font-style: normal;
+}
+
+.AgencyB {font-family: AgencyB, "Helvetica Neue", Helvetica, Arial, sans-serif;}
+.AgencyR {font-family: AgencyR, "Helvetica Neue", Helvetica, Arial, sans-serif;}
+
+h1,h2,h3,h4,h5,h6 {
+	margin: 0;
+	line-height: 1.1;
+	font-weight: normal;
+	font-family: HelveticaBd,"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small,
+.h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small,
+h1 .small, h2 .small, h3 .small, h4 .small, h5 .small, h6 .small,
+.h1 .small, .h2 .small, .h3 .small, .h4 .small, .h5 .small, .h6 .small {
+	font-family: HelveticaLt,"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+p {line-height: 1.6;}
+
+.AgencyB, .AgencyBIt, .GothamBl, .GothamBlIt, .AgencyR, .AgencyRIt, .GothamLt,
+.GothamLtIt, .GothamMd, .GothamMdIt, .GothamTh, .GothamThIt, .GothamUl, .GothamUlIt,
+.GothamXLt, .GothamXLtIt, .GothamRndBd, .GothamRndBdIt, .GothamRndBk, .GothamRndBkIt,
+.GothamRndLt, .GothamRndLtIt, .GothamRndMd, .GothamRndMdIt {
+	margin-top: -2px;
+}
+
+
+
+// Inline Text Elements
+// -------------------------
+
+
+.lead {
+	font-family: GothamLt, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 19px;
+	line-height: 1.2;
+	color: #585858;
+	margin-top: 4px;
+}
+.blockquote-clean {
+	padding: 10px 0;
+	border-left: 0px;
+	border-right: 0px;
+}
+blockquote.blockquote-clean footer:before,
+blockquote.blockquote-clean small:before,
+blockquote.blockquote-clean .small:before {
+	content: '';
+}
+blockquote p {
+	font-family: GothamRndMd, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	line-height: 1.3;
+	color: #5186FB;
+}
+blockquote footer, blockquote small, blockquote .small {
+	font-family: HelveticaRegular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	margin-top: 10px;
+}
+blockquote footer cite, blockquote small cite, blockquote .small cite {
+	color: #323232;
+}
+mark, .mark {
+	background-color: #FF671B;
+	color:#fff;
+	padding: .4em .4em .2em .5em;
+}
+.AgencyB mark, .AgencyBIt mark, .GothamBl mark, .GothamBlIt mark, .AgencyR mark, .AgencyRIt mark, .GothamLt mark,
+.GothamLtIt mark, .GothamMd mark, .GothamMdIt mark, .GothamTh mark, .GothamThIt mark, .GothamUl mark, .GothamUlIt mark,
+.GothamXLt mark, .GothamXLtIt mark, .GothamRndBd mark, .GothamRndBdIt mark, .GothamRndBk mark, .GothamRndBkIt mark,
+.GothamRndLt mark, .GothamRndLtIt mark, .GothamRndMd mark, .GothamRndMdIt mark,
+.AgencyB .mark, .AgencyBIt .mark, .GothamBl .mark, .GothamBlIt .mark, .AgencyR .mark, .AgencyRIt .mark, .GothamLt .mark,
+.GothamLtIt .mark, .GothamMd .mark, .GothamMdIt .mark, .GothamTh .mark, .GothamThIt .mark, .GothamUl .mark, .GothamUlIt .mark,
+.GothamXLt .mark, .GothamXLtIt .mark, .GothamRndBd .mark, .GothamRndBdIt .mark, .GothamRndBk .mark, .GothamRndBkIt .mark,
+.GothamRndLt .mark, .GothamRndLtIt .mark, .GothamRndMd .mark, .GothamRndMdIt .mark {
+	padding: .2em .4em .2em .5em;
+}
+
