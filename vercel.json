@@ -1,4 +1,5 @@
 {
-  "buildCommand": "echo 'Skipping Middleman build for static deployment'",
+  "buildCommand": "echo 'Skipping build for static deployment'",
+  "installCommand": "echo 'Skipping install for static deployment'",
   "outputDirectory": "."
 }
