@@ -1,0 +1,4 @@
+{
+  "buildCommand": "echo 'Skipping Middleman build for static deployment'",
+  "outputDirectory": "."
+}
